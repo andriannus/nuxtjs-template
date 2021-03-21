@@ -19,7 +19,8 @@
     "@nuxtjs/composition-api": "^0.22.1",
     "@nuxtjs/pwa": "^3.3.5",
     "core-js": "^3.8.3",
-    "nuxt": "^2.14.12"
+    "nuxt": "^2.14.12",
+    "portal-vue": "^2.1.7"
   },
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
