@@ -1,4 +1,6 @@
-export default {
+import { defineNuxtConfig } from "@nuxtjs/composition-api";
+
+export default defineNuxtConfig({
   // Target: https://go.nuxtjs.dev/config-target
   target: "static",
 
@@ -51,4 +53,4 @@ export default {
       presets: ["@nuxt/babel-preset-app"],
     },
   },
-};
+});
