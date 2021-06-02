@@ -1,6 +1,8 @@
 import { NuxtConfig } from "@nuxt/types";
 
 const config: NuxtConfig = {
+  srcDir: "./src",
+
   // Target: https://go.nuxtjs.dev/config-target
   target: "static",
 
