@@ -1,6 +1,6 @@
-import { defineNuxtConfig } from "@nuxtjs/composition-api";
+import { NuxtConfig } from "@nuxt/types";
 
-export default defineNuxtConfig({
+const config: NuxtConfig = {
   // Target: https://go.nuxtjs.dev/config-target
   target: "static",
 
@@ -30,7 +30,7 @@ export default defineNuxtConfig({
     "@nuxt/typescript-build",
     // https://go.nuxtjs.dev/stylelint
     "@nuxtjs/stylelint-module",
-    "@nuxtjs/composition-api",
+    "@nuxtjs/composition-api/module",
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -53,4 +53,6 @@ export default defineNuxtConfig({
       presets: ["@nuxt/babel-preset-app"],
     },
   },
-});
+};
+
+export default config;
