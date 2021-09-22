@@ -15,11 +15,11 @@
     "test": "jest"
   },
   "dependencies": {
-    "@nuxt/typescript-runtime": "^2.0.1",
-    "@nuxtjs/composition-api": "^0.23.4",
+    "@nuxt/typescript-runtime": "^2.1.0",
+    "@nuxtjs/composition-api": "^0.29.2",
     "@nuxtjs/pwa": "^3.3.5",
     "core-js": "^3.8.3",
-    "nuxt": "^2.14.12",
+    "nuxt": "^2.15.8",
     "portal-vue": "^2.1.7"
   },
   "devDependencies": {
@@ -27,7 +27,7 @@
     "@commitlint/config-conventional": "^11.0.0",
     "@nuxt/babel-preset-app": "^2.15.3",
     "@nuxt/types": "^2.14.12",
-    "@nuxt/typescript-build": "^2.0.4",
+    "@nuxt/typescript-build": "^2.1.0",
     "@nuxtjs/eslint-config-typescript": "^5.0.0",
     "@nuxtjs/eslint-module": "^3.0.2",
     "@nuxtjs/stylelint-module": "^4.0.0",
@@ -46,8 +46,11 @@
     "prettier": "^2.2.1",
     "stylelint": "^13.9.0",
     "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-sass-guidelines": "^8.0.0",
     "stylelint-config-standard": "^20.0.0",
+    "stylelint-config-suitcss": "^17.0.0",
     "ts-jest": "^26.4.4",
+    "typescript": "^4.4.3",
     "vue-jest": "^3.0.4"
   }
 }
